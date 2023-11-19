@@ -7,7 +7,7 @@
 ./mvnw clean install
 
 
-## run project with 'jar'
+## run project with '-jar'
 - in appllication.properties: 
   + server.servlet.context-path=/hysteryale
 - run:  java -jar file.war
