@@ -8,6 +8,7 @@
 
 
 ## run project with '-jar'
+- run + bash
 - in appllication.properties: 
   + server.servlet.context-path=/hysteryale
 - run:  java -jar file.war
