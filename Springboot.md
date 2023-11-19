@@ -1,6 +1,9 @@
 ## build spring don't use 'mvn'
+
 ./mvnw -N io.takari:maven:wrapper 
+
 ./mvnw install -DskipTests      : Sử dụng Maven để xây dựng ứng dụng, và -DskipTests bỏ qua việc chạy các bài kiểm thử.
+
 ./mvnw clean install
 
 
