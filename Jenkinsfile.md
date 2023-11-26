@@ -11,7 +11,7 @@ pipeline {
 }
 
 
-##declare params
+## declare params
 
 pipeline {
     agent any
