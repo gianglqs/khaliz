@@ -6,3 +6,10 @@ docker run -p 8080:8080 -p 50000:50000 --restart=on-failure jenkins/jenkins:lts-
 
 #login github container registry 
 sudo docker login ghcr.io -u USERNAME -p TOKEN
+
+#use docker without sudo
+sudo groupadd docker
+sudo usermod -aG docker $USER
+newgrp docker
+### neu khong duoc 
+sudo chown :docker /var/run/docker.sock
