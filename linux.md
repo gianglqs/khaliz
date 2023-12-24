@@ -28,3 +28,7 @@ sudo kill -9 31367
 pm2 start yarn --name "hyster-yale-frontend" -- start
 
 sudo reboot -p
+
+
+# export IP 
+export NEXT_PUBLIC_BACKEND_URL=http://$(hostname -I | awk '{print $1}')/hysteryale/
